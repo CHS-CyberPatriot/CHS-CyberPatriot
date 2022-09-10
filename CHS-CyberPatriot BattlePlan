@@ -1,0 +1,34 @@
+**#CyberPatriot Battle Plan**
+
+**##Windows 10 /Windows Server Battle Plan**
+
+1. Create restore point
+2. Enable Firewall / Defender
+2. Configure Defender AV for weekly scheduled scans
+3. Configure AppLocker
+4. Run Windows update
+  Open a admin powershell session
+  type Install-Module PSWindowsUpdate
+  This will install the Windows Update module for Windows Powershell.
+  type Get-WindowsUpdate
+  This will connect to the Windows Update servers and download the updates if found.
+  type Install-WindowsUpdate
+  close powershell
+5. Create an audit policy WINDOWS ADVANCED LOGGING CHEAT SHEET 
+6. Answer Forensic questions
+7. Reboot
+8. Run a system audit tool, MS Compliance Toolkit  MS SCT HowTo 
+   Correct problems found in audit tool
+
+**##Ubuntu Linux CyberPatriot Battle Plan**
+
+1. Enable GUFW Firewall
+2. Enable ClamAV
+3. Install auditd and create audit rules
+4. Enable Apparmor
+5. OS Update   terminal: sudo apt-get update
+6. Answer Foresic questions
+7. Reboot
+8. Follow Best Practices Guide
+9. Run a system audit tool, Lynis
+10. Correct problems found in audit tool
