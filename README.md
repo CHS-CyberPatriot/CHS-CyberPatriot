@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/113249887/189502357-0463efbd-5ddb-49e0-8b4f-887363704879.png)
 
-# CHS-CyperPatriot
+# CHS-CyberPatriot
 
 Tools and links related to Columbia HS CyberPatriot teams
 
